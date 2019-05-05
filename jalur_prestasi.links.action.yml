@@ -1,0 +1,6 @@
+entity.jalur_prestasi.add_form:
+  route_name: entity.jalur_prestasi.add_form
+  title: 'Add Jalur prestasi'
+  appears_on:
+    - entity.jalur_prestasi.collection
+    - entity.jalur_prestasi.canonical

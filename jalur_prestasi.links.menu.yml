@@ -1,0 +1,14 @@
+
+# Jalur prestasi menu items definition
+entity.jalur_prestasi.collection:
+  title: 'Jalur prestasi list'
+  route_name: entity.jalur_prestasi.collection
+  description: 'List Jalur prestasi entities'
+  parent: system.admin_structure
+  weight: 100
+
+jalur_prestasi.admin.structure.settings:
+  title: 'Jalur prestasi settings'
+  description: 'Configure Jalur prestasi entities'
+  route_name: jalur_prestasi.settings
+  parent: system.admin_structure

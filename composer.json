@@ -1,0 +1,14 @@
+{
+  "name": "drupal/jalur_prestasi",
+  "type": "drupal-module",
+  "description": "Pilihan jalur prestasi",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/jalur_prestasi",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/jalur_prestasi",
+    "source": "http://cgit.drupalcode.org/jalur_prestasi"
+  },
+  "require": { }
+}

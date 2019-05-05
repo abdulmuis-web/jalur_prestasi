@@ -1,0 +1,22 @@
+# Jalur prestasi routing definition
+jalur_prestasi.settings_tab:
+  route_name: jalur_prestasi.settings
+  title: 'Settings'
+  base_route: jalur_prestasi.settings
+
+entity.jalur_prestasi.canonical:
+  route_name: entity.jalur_prestasi.canonical
+  base_route: entity.jalur_prestasi.canonical
+  title: 'View'
+
+entity.jalur_prestasi.edit_form:
+  route_name: entity.jalur_prestasi.edit_form
+  base_route: entity.jalur_prestasi.canonical
+  title: 'Edit'
+
+entity.jalur_prestasi.delete_form:
+  route_name:  entity.jalur_prestasi.delete_form
+  base_route:  entity.jalur_prestasi.canonical
+  title: Delete
+  weight: 10
+

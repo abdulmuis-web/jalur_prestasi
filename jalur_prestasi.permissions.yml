@@ -1,0 +1,19 @@
+add jalur prestasi entities:
+  title: 'Create new Jalur prestasi entities'
+
+administer jalur prestasi entities:
+  title: 'Administer Jalur prestasi entities'
+  description: 'Allow to access the administration form to configure Jalur prestasi entities.'
+  restrict access: true
+
+delete jalur prestasi entities:
+  title: 'Delete Jalur prestasi entities'
+
+edit jalur prestasi entities:
+  title: 'Edit Jalur prestasi entities'
+
+view published jalur prestasi entities:
+  title: 'View published Jalur prestasi entities'
+
+view unpublished jalur prestasi entities:
+  title: 'View unpublished Jalur prestasi entities'
