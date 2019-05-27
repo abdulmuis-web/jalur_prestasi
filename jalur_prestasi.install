@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\jalur_prestasi\Entity\JalurPrestasi;
+
+function jalur_prestasi_install() {
+  
+  $entries = [
+	['id' => '10', 'name' => 'Tidak Mengikuti Jalur Prestasi'],
+	['id' => '20', 'name' => 'Mengikuti Jalur Prestasi'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $jalur_prestasi = JalurPrestasi::create($entry);
+	
+	$jalur_prestasi->save();
+  }
+}
